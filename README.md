@@ -9,3 +9,9 @@
  #(end of segment)
  
  #The narrative by segmentation format makes the cognitive processes used by the programmer easy to understand.
+ 
+ #This file produces two comma delimited files. Both files are in this repository.
+ 
+ #week4data.csv This provides a table whose column names are the features concatenanted with the activity type and the experimental type. Information concerning whether this data  #was extracted during a training experiment or under the actual test conditions is preserved. 
+ 
+ #averageFeatureSummary.csv This provides the averages of all the features.
