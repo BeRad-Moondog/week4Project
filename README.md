@@ -7,3 +7,5 @@
  #Add one to x 
  # "x<-x+1"
  #(end of segment)
+ 
+ #The narrative by segmentation format makes the cognitive processes used by the programmer easy to understand.
