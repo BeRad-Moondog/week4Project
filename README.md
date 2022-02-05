@@ -5,6 +5,6 @@
 
 #A segment will look like this:
 
-# Add one to x     <----this is what is being accomplished in this segment of the narrative
+ Add one to x     <----this is what is being accomplished in this segment of the narrative
   x<-x+1
-# (end of segment)
+ (end of segment)
