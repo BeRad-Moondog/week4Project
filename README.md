@@ -3,9 +3,13 @@
 
 #The R code for this project is contained in the downloadable file run_analysis.R The code provides an easily understandable narrative for the analysis by segmenting the code in steps.
 
-#Create the activity and features tables <----**This describes what each segments does**
-        activityLabels<-"./UCI HAR Dataset/activity_labels.txt" %>%read.table()
-                        colnames(activityLabels)<-c("aNDX","activity name")
-                
-        features<-"./UCI HAR Dataset/features.txt"%>%read.table()
-#
+# Do the data files exist in the working directory. if not then down load the compressed file and unzip.  ** <----Description of Segment from Narrative**
+    dirlist<-c("./UCI HAR Dataset","./UCI HAR Dataset/test","./UCI HAR Dataset/train",
+               "./UCI HAR Dataset/test/Inertial Signals","./UCI HAR Dataset/train/Inertial Signals")
+    if (!sum(dir.exists(dirlist))==length(dirlist)){
+      fn<-new.wd.dir %>% paste("project_dataSet.zip",sep="")
+      fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
+      download.file(fileURL,fn,method="auto",cacheOK=FALSE)
+      unzip(fn)
+    }
+# 
