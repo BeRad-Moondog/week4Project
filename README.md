@@ -3,13 +3,8 @@
 
 #The R code for this project is contained in the downloadable file run_analysis.R The code provides an easily understandable narrative for the analysis by segmenting the code in steps.
 
-# Do the data files exist in the working directory. if not then down load the compressed file and unzip. 
-    dirlist<-c("./UCI HAR Dataset","./UCI HAR Dataset/test","./UCI HAR Dataset/train",
-               "./UCI HAR Dataset/test/Inertial Signals","./UCI HAR Dataset/train/Inertial Signals")
-    if (!sum(dir.exists(dirlist))==length(dirlist)){
-      fn<-new.wd.dir %>% paste("project_dataSet.zip",sep="")
-      fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
-      download.file(fileURL,fn,method="auto",cacheOK=FALSE)
-      unzip(fn)
-    }
-# End Segment
+#A segment will look like this:
+
+# Add one to x     <----this is what is being accomplished in this segment of the narrative
+  x<-x+1
+# (end of segment)
