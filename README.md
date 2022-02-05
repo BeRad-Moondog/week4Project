@@ -17,3 +17,9 @@
  #week4data.csv This provides a table whose column names are the features concatenanted with the activity type and the experimental type. Information concerning whether this data  #was extracted during a training experiment or under the actual test conditions is preserved. 
  
  #averageFeatureSummary.csv This provides the averages of all the features.
+ 
+ #In that I have thirty years experience as an applied physicist, I become very irritated when someone reduces any descriptive information about an experiment. I have included the two files that the ACTUAL experimentalists included with the compressed data down load.
+ 
+ #EXPERIMENTAL_README.txt
+ #Experimental_features_info.txt
+ 
