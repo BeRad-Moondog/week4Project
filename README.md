@@ -4,7 +4,6 @@
 #The R code for this project is contained in the downloadable file run_analysis.R The code provides an easily understandable narrative for the analysis by segmenting the code in steps.
 
 #A segment will look like this:
-
- Add one to x     <----this is what is being accomplished in this segment of the narrative
-  x<-x+1
- (end of segment)
+ #Add one to x     <----this is what is being accomplished in this segment of the narrative
+ # x<-x+1
+ #(end of segment)
